@@ -105,7 +105,7 @@ void loop() {
     } else if (x >= 80) {
       //小车右转
       car_right();
-    } else if (w <= 15 && h <= 15) {
+    } else if (w <= 25 && h <= 25) {
       car_forward();
     } else if (w >= 70 && h >= 70) {
       car_back();

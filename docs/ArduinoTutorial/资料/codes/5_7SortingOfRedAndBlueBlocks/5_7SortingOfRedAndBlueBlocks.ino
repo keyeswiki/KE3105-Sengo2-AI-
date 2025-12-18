@@ -62,8 +62,8 @@ void setup() {
   sentry_object_t param = { 0 };  // 初始化参数结构体
 
   /* 设置色块最小检测尺寸（像素）*/
-  param.width = 50;   // 最小宽度50像素
-  param.height = 50;  // 最小高度50像素
+  param.width = 30;   // 最小宽度50像素
+  param.height = 30;  // 最小高度50像素
 
   /* 配置第一个色块（红色）*/
   param.label = Sengo::kColorRed;                // 设置颜色标签为红色
